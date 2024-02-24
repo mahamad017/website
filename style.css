@@ -1,5 +1,5 @@
 body {
-    background-image: url(../imgess/background65.avif);
+    background-image: url(imgess/background65.avif);
     margin: 0;
     padding: 0;
 
@@ -92,11 +92,11 @@ body {
 
 body.dark-mode {
 
-    background-image: url(../imgess/background65.avif);
+    background-image: url(imgess/background65.avif);
 }
 body.light-mode {
 
-    background-image: url(../imgess/laightmode.png);
+    background-image: url(imgess/laightmode.png);
 }
 
 
