@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <script src="Java.js">  </script>
+
+<style>
+ 
+</style>
+
+</head>
+
+<body>
+    <div class="navbar" style="height: 100px;">
+
+        <div class="dropdown">
+            <button class="dropbtn" onclick="toggleDropdown('gamesDropdown')">الألعاب</button>
+            <div class="dropdown-content" id="gamesDropdown">
+                <a href="freeGames.html">الألعاب المجانية</a>
+                <a href="payedGames.html">الألعاب المدفوعة</a>
+
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn" onclick="toggleDropdown('communityDropdown')">اخر الأخبار</button>
+            <div class="dropdown-content" id="communityDropdown">
+                <a href="discount.html">الخصومات</a>
+                <a href="news.html">الأخبار</a>
+
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn" onclick="toggleDropdown('storeDropdown')">فريق الدعم</button>
+            <div class="dropdown-content" id="storeDropdown">
+                <a href="teamSupport.html">المنتجات</a>
+
+            </div>
+        </div>
+        <button onclick="updateMode('light-mode')" id="mode">🌞</button>
+        <button onclick="updateMode('dark-mode')" id="mode">🌚</button>
+        <h1 style="color: aliceblue; padding-left: 580px; " id="allh1">IUSR GAMES SHOPE</h1>
+    </div>
+
+    <a href="Login.html"><input type="submit" value="Back To Login" id="gotologin"></a>
+
+
+  
+
+    <a href="homePage.html"> <input type="submit" value="go to Mune" id="gotomnue"></a>
+        <br><br>
+    <h1  id="h1teamsupport" >Proplems You might have:</h1>
+    <div style="color: aliceblue;">
+        <div id="teamSupportdiv">
+            <details>
+                <summary>connection Error </summary>
+                1-Make sure you are connected to the Internet <br>
+                2-Check your DNS over HTTPS settings <br>
+
+            </details>
+        </div><br><br>
+        <div id="teamSupportdiv" >
+            <details>
+                <summary>Download Error </summary>
+                1-Make sure you are connected to the Internet <br>
+                2-Check Your Resources <br>
+
+            </details>
+        </div><br><br>
+        <div id="teamSupportdiv">
+            <details>
+                <summary>Device Compatibility:</summary>
+                1-Provide information about system requirements and compatibility to users, <br> and provide tips to improve game performance. <br>
+                <br>
+
+            </details>
+        </div>
+    </div>
+    <form style="display: inline-block;"><br><br><br>
+
+
+        <fieldset>
+            <legend >
+                Send Your Proplem
+            </legend>
+            <textarea name="message" id="textarea" cols="50" rows="20"></textarea>
+        </fieldset><br><br>
+        <input type="submit" value="send " id="teamSupportsubmit">
+    </form>
+
+
+    <footer>
+        <div class="info">
+
+            <p>Email : odaialtaha3@gmail.com</p>
+            <p> Phone: <a href="https://wsend.co/905376777266" style="color: blue;">+905376777266 </a> </p>
+            <p>Address: <a href="https://maps.app.goo.gl/3htW3bV23vWf5mgM7" style="color: blue;">H2HF+9MR، منطقة
+                    أعزاز‎،، أعزاز، سوريا </a></p>
+        </div>
+
+        <div class="links">
+            <a href="homePage.html" style="color: blue;">Home</a>
+
+
+
+        </div>
+        <br>
+
+        <div class="social-media">
+            <a href="https://www.facebook.com/odai.altaha?mibextid=9R9pXO" target="_blank"><img
+                    src="../imgess/face-removebg-preview.png" alt="Facebook" width="20px" height="20px"></a>
+            <a href="http://t.me/Odaitaha23" target="_blank"><img src="../imgess/Telegram-Logo-removebg-preview.png"
+                    alt="Telegram" width="30px" height="20px"></a>
+            <a href="https://www.instagram.com/abod.kialy?igsh=MzNlNGNkZWQ4Mg==" target="_blank"><img
+                    src="../imgess/insta-removebg-preview.png" alt="Instagram" width="20px" height="20px"></a>
+        </div>
+
+        <p class="copyright">&copy; 2024 IUSR GAMES SHOPE. All rights reserved.</p>
+        <p> هو متجر لبيع الألعاب الإلكترونية يحتوي موقعنا على الكثير من الألعاب المجانية والعروضات المميزة والحصرية IUSR
+            GAMES SHOPE موقع </p>
+    </footer>
+</body>
+
+</html>
